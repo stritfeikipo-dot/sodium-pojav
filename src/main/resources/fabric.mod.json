@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium-pojav-fix",
+  "version": "${version}",
+  "name": "Sodium Pojav Fix",
+  "description": "Disables Sodium's PojavLauncher compatibility check",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "sodium-pojav-fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "sodium": "*"
+  }
+}
