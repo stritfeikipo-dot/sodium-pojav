@@ -1,0 +1,13 @@
+sodium-pojav-fix/              
+├── build.gradle
+├── settings.gradle
+├── gradle.properties
+└── src/
+    └── main/
+        ├── resources/
+        │   ├── fabric.mod.json
+        │   └── sodium-pojav-fix.mixins.json
+        └── java/
+            └── com/example/sodiumpojavfix/
+                └── mixin/
+                    └── PostLaunchChecksMixin.java
