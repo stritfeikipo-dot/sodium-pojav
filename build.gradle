@@ -8,6 +8,10 @@ group = project.maven_group
 
 repositories {
     maven { url 'https://maven.fabricmc.net/' }
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+    }
 }
 
 dependencies {
